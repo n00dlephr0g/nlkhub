@@ -31,9 +31,9 @@ services:
     image: postgres:latest
     environment:
       - PGDATA="/data"
-      - POSTGRES_DB=${POSTGRES_DATABASE}
-      - POSTGRES_USER=${POSTGRES_USR}
-      - POSTGRES_PASSWORD=${POSTGRES_PWD}
+      - POSTGRES_DB=${DATABASE_DB}
+      - POSTGRES_USER=${DATABSE_USR}
+      - POSTGRES_PASSWORD=${DATABASE_PWD}
     volumes:
       - ${DATABASE_DIR}/data:/data
     ports:
