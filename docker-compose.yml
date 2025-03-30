@@ -12,9 +12,9 @@ services:
       bash -c "
         pip install -r /app/requirements.txt &&
         python manage.py migrate &&
-        python manage.py runserver 0.0.0.0:8000"
+        python manage.py runserver 0.0.0.0:${BACKEND_PORT}"
     ports:
-      - ${BACKEND_PORT}:8000
+      - ${BACKEND_PORT}:${BACKEND_PORT}
     networks:
       - app_network
 
