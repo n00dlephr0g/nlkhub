@@ -6,9 +6,11 @@ services:
     working_dir: /app
     environment:
       - PYTHONBUFFERED=1
+      - PYTHONPATH=/app
+      - DJANGO_SETTINGS_MODULE=backend.settings
     command: >
-      bash -c "configs:
-        pip install -r requirements.txt &&
+      bash -c "
+        pip install -r /app/requirements.txt &&
         python manage.py migrate &&
         python manage.py runserver 0.0.0.0:8000"
     ports:
