@@ -32,7 +32,7 @@ services:
     environment:
       - PGDATA="/data"
       - POSTGRES_DB=${DATABASE_DB}
-      - POSTGRES_USER=${DATABSE_USR}
+      - POSTGRES_USER=${DATABASE_USR}
       - POSTGRES_PASSWORD=${DATABASE_PWD}
     volumes:
       - ${DATABASE_DIR}/data:/data
