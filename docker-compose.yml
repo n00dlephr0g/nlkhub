@@ -40,6 +40,8 @@ services:
       - ${DATABASE_DIR}/data:/data
     ports:
       - 5432:5432
+    networks:
+      - app_network
 
 networks:
   app_network:
