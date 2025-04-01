@@ -6,20 +6,17 @@ nlkhub aims to provide a solution for adding and tracking feedback given across 
 
 ## Intended Audience
 
-The intended audience of nlkhub is NLK leaders and helpers. The system should be accessible to all members of the NLK team, because feedback from all members is crucial. That being said, the NLK team is made up of many different demographics.
+The intended audience of nlkhub is NLK leaders and helpers. The system should be accessible to all members of the NLK program team.
 
-The demographics include but are not exclusive to:
+This includes:
 
-* Students
-  * Junior Highschool Students
-  * Senior Highschool Students
-  * University Students
-* Parents
-* Workforce Members
+* Junior Highschool Students
+* Senior Highschool Students
+* University Students
 
-## Intended Use
+# Intended Use
 
-nlkhub will be used as an interface to add, remove, track and review feedback. 
+nlkhub will be used as an interface to add, remove, track and review feedback.
 
 Use cases:
 
@@ -30,9 +27,7 @@ Use cases:
 * Reviewing issues during team meetings
 * Resolving issues during team meetings
 
-
 ## Product Scope
-
 
 # Overall Description
 
