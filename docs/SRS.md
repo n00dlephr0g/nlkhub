@@ -4,6 +4,8 @@
 
 nlkhub aims to provide a solution for adding and tracking feedback given across different sunday services at New Life Kids. Apart from its basic functionality, nlkhub should have an intuitive and simple interface, to minimise usability bottlenecks and inefficient feedback production. More advanced functionalities are also within the scope of this project, for the purpose of minimising manual efforts in organisation, tracking and searching tasks.
 
+`<br/>`
+
 ## Intended Audience
 
 The intended audience of nlkhub is NLK leaders and helpers. The system should be accessible to all members of the NLK program team.
@@ -26,6 +28,8 @@ Use cases:
 * Adding issues during brainstorming
 * Reviewing issues during team meetings
 * Resolving issues during team meetings
+
+`<br/>`
 
 ## Product Scope
 
